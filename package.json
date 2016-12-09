@@ -1,0 +1,29 @@
+{
+  "name": "solid-array",
+  "version": "0.0.1",
+  "description": "A solid array that saves its state in a levelDB database so it's stateful and crash-safe",
+  "main": "./solid-array.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nelio/solid-array.git"
+  },
+  "keywords": [
+    "queue",
+    "array",
+    "solid",
+    "stateful",
+    "leveldb"
+  ],
+  "author": "Nelio Nunes <nelionunes@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nelio/solid-array/issues"
+  },
+  "homepage": "https://github.com/nelio/solid-array#readme",
+  "dependencies": {
+    "levelup": "^1.3.3"
+  }
+}
